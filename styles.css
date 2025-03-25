@@ -32,10 +32,11 @@ ul {
 	background: url('images/homepage-header-3.svg');
 }
 #welcome {
-	font-family: 'Moo Lah Lah', serif;
-	font-size: 6em;
-	color: black;
-}
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+      }
 
 /* Content Layout- Homepage*/
 
