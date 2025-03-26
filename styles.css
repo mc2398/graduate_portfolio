@@ -37,7 +37,7 @@ button a:hover{
 	color: black;
 	font-family: ;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
 	.homepage-head-background {
 		width: 100%;
 		height: 500px;
@@ -58,7 +58,44 @@ button a:hover{
 		text-align: center;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width:600px) and (max-width: 1000px){
+	.homepage-head-background {
+		width: 100%;
+		height: 200px;
+		background-size: cover;
+		background: url('portfolio-header.svg');
+		background-repeat: round;
+		/*overflow: hidden;*/
+	}
+	h1 {
+		background-color: white;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 10%;
+		padding: 5px;
+		font-family: 'Gorditas', serif;
+		font-size: 2em;
+		text-align: center;
+	}
+}
+@media screen and (min-width:480px) and (max-width: 600px){
+	.homepage-head-background {
+		width: 100%;
+		height: 350px;
+		background: url('portfolio-header-480-600.svg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	h1 {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 20%;
+		margin-bottom: 0;
+		font-size: 2.5em;
+		background-color: white;
+	}
+}
+@media screen and (max-width: 480px){
 	.homepage-head-background {
 	width: 100%;
 	height: 400px;
