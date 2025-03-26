@@ -3,7 +3,7 @@
 
 /* Styling "defaults" across all pages*/
 body {
-	color: #F2055C;
+	color: #753EB7;
 	text-align: center;
 	background-color: white;
 }
@@ -13,7 +13,7 @@ nav {
 	font-size: 1.5em;
 }
 .attribution {
-	color: #E087AC;
+	color: #753EB7;
 	background-color: white;
 	text-align: center;
 	padding: 5px;
@@ -47,7 +47,11 @@ ul {
 
 /* header for the Homepage*/
 .homepage-head-background {
-	background: url('images/homepage-header-3.svg');
+	/* width: 100%;
+	height: 100%; */
+	background-size: auto;
+	background: url('portfolio-header.svg');
+	background-repeat: round;
 }
 #welcome {
     font-family: "Galindo", sans-serif;
