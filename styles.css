@@ -24,6 +24,13 @@ button a {
 button a:hover{
 	text-decoration:underline;
 }
+#home-page {
+	background-color: #f0cfce;
+
+}
+#home-page a {
+	color: black;
+}
 @media screen and (min-width: 600px) {
 	.homepage-head-background {
 		width: 100%;
