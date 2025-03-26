@@ -1,0 +1,7 @@
+.homepage-head-background {
+	/* width: 100%;
+	height: 100%; */
+	background-size: auto;
+	background: url('portfolio-header.svg');
+	background-repeat: no-repeat;
+}

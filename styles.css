@@ -1,6 +1,15 @@
 /*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
-@import url('mobile-styles.css') (max-width:800px);
+@import url('desktop-styles.css') (min-width:800px);
 
+@media (max-width: 799px){
+	.homepage-head-background {
+	/* width: 100%;
+	height: 100%; */
+	background-size: auto;
+	background: url('portfolio-header.svg');
+	background-repeat: no-repeat;
+}
+}
 /* Styling "defaults" across all pages*/
 body {
 	color: #753EB7;
@@ -50,8 +59,8 @@ ul {
 	/* width: 100%;
 	height: 100%; */
 	background-size: auto;
-	background: url('portfolio-header.svg');
-	background-repeat: round;
+	background: url('portfolio-mobile-header.svg');
+	background-repeat: no-repeat;
 }
 #welcome {
     font-family: "Galindo", sans-serif;
