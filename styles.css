@@ -25,6 +25,13 @@ ul {
 	padding-left:0;
 	}
 
+/* Portfolio Homepage */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: pink;
+    padding: 10px;
+}
 /* HOMEPAGE */
 
 /* header for the Homepage*/
