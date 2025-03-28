@@ -172,7 +172,10 @@ body {
   }
 .project-thumbnail {
 	width: 90%;
+	/* margin-top: 20px; */
+	/* vertical-align: bottom; */
 }
+
 /* HOMEPAGE */
 
 /* header for the Homepage*/
