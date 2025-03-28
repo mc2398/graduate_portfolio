@@ -1,7 +1,22 @@
 /*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
 @import url('desktop-styles.css') (min-width:800px);
 
-
+.home-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffffff;
+    padding: 10px 15px 0 0;
+	gap: 10px 10px;
+}
+.home-container > div {
+	width:100%;
+	background-color: #ffffff;
+	color: black;
+	border: 0 solid black;
+	padding: 1fr;
+	/* font-size: 1em; */
+	text-align: center;
+  }
 
 #portfolio-button {
 	background-color: #ff7400;
