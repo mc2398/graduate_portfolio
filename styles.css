@@ -5,11 +5,11 @@
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #ffffff;
-    padding: 10px 15px 0 0;
+    padding: 0 0 0 0;
 	gap: 10px 10px;
 }
 .home-container > div {
-	width:100%;
+	width:95%;
 	background-color: #ffffff;
 	color: black;
 	border: 0 solid black;
@@ -17,8 +17,14 @@
 	/* font-size: 1em; */
 	text-align: center;
   }
+  .home-container > #about-blurb {
+	font-size: 3vw;
+	padding: 0 5% 0 5%;
+	text-align: justify;
+  }
 
 #portfolio-button {
+	/* font-size: 5vw; */
 	background-color: #ff7400;
 	color: white;
 }
@@ -30,6 +36,7 @@
 }
 
 #resume-button {
+	/* font-size: 5vw; */
 	background-color: #ff7400;
 }
 
@@ -142,13 +149,12 @@ body {
 }
 
 .attribution {
-	color: #753EB7;
+	color: #000000;
 	background-color: white;
 	text-align: center;
-	padding: 5px;
-	margin-top:50px;
+	padding: 5px 0 0 0;
+	margin: 5vw 0 0 0;
 }
-
 /* Portfolio Homepage */
 .container {
     display: grid;
@@ -210,7 +216,7 @@ button {
 	color: white;
 	background-color: #FFCAD7;
 	padding: 20px;
-	font-size: 1.5em;
+	font-size: 5vw;
 	border-radius: 10px;
 	font-family: "Cantora One", sans-serif;
 	margin-top: 20px;
