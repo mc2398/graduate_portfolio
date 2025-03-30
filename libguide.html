@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cantora+One&family=Galindo&family=Gorditas:wght@400;700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
   </head>
 <body>
     <header class="libguide-head-background">
         <h1 class="libguide-h1">Queer Speculative<br>Fiction Libguide</h1>
+        <button id="test1" onclick="yassify()">Test</button>
     </header>
     <div class="portfolio-page-content">
         <div>
@@ -50,4 +52,38 @@
      </div>
     <footer>
     </footer>
+<script>
+  function yassify() {
+  document.getElementByClass("libguide-head-background").style.color =
+  "#F51387";
+}
+// function makeBoring() {
+//     document.getElementsByClass("accordion").style.color = "black";
+// }
+//   const element = document.getElementById("accordion");
+  
+//   element.addEventListener("click", function() {
+//   // Generate a random color
+//   const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+ 
+
+//   // Change the background color of the element
+//   element.style.backgroundColor = randomColor;
+//   });
+
+// // var acc = document.getElementsByClassName("accordion");
+// // var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     } 
+//   });
+// }
+</script>
 </body>
