@@ -1,5 +1,6 @@
 /*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
-@import url('desktop-styles.css') (min-width:800px);
+/* @import url('desktop-styles.css') (min-width:800px); */
+@import "desktop-styles.css" screen and (min-width: 600px) and (max-width: 1000px);
 
 
 .rethink-sans-subhead {
@@ -117,14 +118,14 @@ h1 {
 		text-align: center;
 	}
 }
-@media screen and (min-width:600px) and (max-width: 1000px){
+/* @media screen and (min-width:600px) and (max-width: 1000px){
 	.homepage-head-background {
 		width: 100%;
 		height: 200px;
 		background-size: cover;
 		background: url('portfolio-header.svg');
 		background-repeat: round;
-		/*overflow: hidden;*/
+		overflow: hidden;
 	}
 	h1 {
 		background-color: white;
@@ -132,11 +133,11 @@ h1 {
 		margin-left: 10%;
 		margin-top: 10%;
 		padding: 5px;
-		/* font-family: "Galindo", sans-serif; */
+		/* font-family: "Galindo", sans-serif; 
 		font-size: 2em;
 		text-align: center;
 	}
-}
+} */
 @media screen and (min-width:480px) and (max-width: 600px){
 	.homepage-head-background {
 		width: 100%;
