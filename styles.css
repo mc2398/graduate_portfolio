@@ -1,6 +1,26 @@
 /*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
 @import url('desktop-styles.css') (min-width:800px);
 
+
+.rethink-sans-subhead {
+	font-family: "Rethink Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+  }
+.portfolio-heading {
+	font-family: "Rethink Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.rethink-sans-bodyfont {
+	font-family: "Rethink Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+  }
+
 .home-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -68,8 +88,8 @@ h1 {
 @media screen and (min-width: 1000px) {
 	.homepage-head-background {
 		width: 100%;
-		height: 500px;
-		margin-bottom: 0;
+		height: 400px;
+		/* margin-bottom: 0; */
 		background-size: cover;
 		background: url('portfolio-header.svg');
 		background-repeat: no-repeat;
@@ -80,9 +100,11 @@ h1 {
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%
+		/* height: 350px; */
 	}
 	.libguide-h1 {
-		margin: 10% 35% 10% 35%;
+		margin: 10% 30% 10% 30%;
+
 	}
 	h1 {
 		background-color: white;
@@ -165,7 +187,7 @@ div img {
 }
 /* Styling "defaults" across all pages*/
 body {
-	color: #753EB7;
+	/* color: #753EB7; */
 	text-align: center;
 	background-color: white;
 }
