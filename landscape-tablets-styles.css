@@ -4,10 +4,45 @@
 		justify-content: center;
 	}
 	h1 {
-		margin: 6vw 20% 6vw 20%;
+		margin: 10% 20% 10% 20%;
 		padding: 5px;
 		font-size: 4.5vw;
 	}
+	.home-container {
+		display: flex;
+		flex-direction: row;
+		/* padding: 0; */
+		background-color: #ffffff;
+	}
+	.home-container > div {
+		width: 60%;
+		color: black;
+		/* padding: 0; */
+		text-align: left;
+	  }
+	  .home-container > #about-blurb {
+		width: 97%;
+		margin-left: 3%;
+		font-size: 2.5vw;
+		text-align: justify;
+	  }
+	#button-menu {
+		margin-top: 0;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.home-button-layout {
+		margin: 0 10px;
+	}
+/* Portfolio Landing Page Styling */
+.portfolio-heading {
+	font-size: 2vw;
+}
+#portfolio-h1 {
+	font-size: 2.5em;
+}
+/* Portfolio SubPage Formatting */
 	.portfolio-page-content {
 		display: flex;
 		background-color: #ffffff;
@@ -19,3 +54,6 @@
 		background-color: #f1f1f1;
 		padding: 1fr;
 	  }
+button {
+	font-size: 4.25vw;
+}

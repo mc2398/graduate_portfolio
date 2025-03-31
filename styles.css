@@ -48,45 +48,47 @@ h1 {
 	font-style: normal;
   }
 
+/* Homepage Content Styling */
 .home-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    /* grid-template-columns: 50% 50%; */
     background-color: #ffffff;
-    padding: 0 0 0 0;
-	gap: 10px 10px;
+    /* padding: 0 0 0 0; */
+	/* gap: 10px 10px; */
 }
 .home-container > div {
-	width:95%;
-	background-color: #ffffff;
+	background-color: white;
 	color: black;
-	border: 0 solid black;
 	padding: 1fr;
-	/* font-size: 1em; */
 	text-align: center;
   }
   .home-container > #about-blurb {
-	font-size: 3vw;
-	padding: 0 5% 0 5%;
-	text-align: justify;
+	/* font-size: 3vw; */
+	/* text-align: justify; */
   }
-
+#button-menu {
+	display:flex;
+	justify-content: center;
+}
+/* .home-button-layout {
+} */
+#home-h2 {
+	margin-left: 0;
+}
 #portfolio-button {
 	/* font-size: 5vw; */
 	background-color: #ff7400;
 	color: white;
 }
-
 #portfolio-button a {
 	color: white;
 	font-family: "Cantora One", sans-serif;
 	font-style: normal;
 }
-
 #resume-button {
 	/* font-size: 5vw; */
 	background-color: #ff7400;
 }
-
 #resume-button a {
 	color: white;
 	font-family: "Cantora One", sans-serif;
@@ -98,13 +100,12 @@ button a {
 button a:hover{
 	text-decoration:underline;
 }
+/* Button to return to homepage styling */
 #home-page {
 	background-color: #f0cfce;
-
 }
 #home-page a {
 	color: black;
-	/* font-family: ; */
 }
 
 /* Styling the Portfolio Page*/
@@ -183,12 +184,12 @@ body {
 }
 
 /* Homepage- text content styling*/
-.about-message{
+/* .about-message{
 	font-family: 'Calistoga', serif;
 	margin-left: 13%;
 	margin-right: 13%;
 	font-size:2em;
-}
+} */
 
 header {
 	color: black;
@@ -202,7 +203,7 @@ button {
 	color: white;
 	background-color: #FFCAD7;
 	padding: 20px;
-	font-size: 5vw;
+	/* font-size: 5vw; */
 	border-radius: 10px;
 	font-family: "Cantora One", sans-serif;
 	margin-top: 20px;
