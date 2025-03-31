@@ -6,3 +6,15 @@
 		margin: 20% 10% 0 10%;
 		font-size: 2.5em;
 	}
+	.portfolio-page-content {
+		display: flex;
+		flex-direction: column;
+		background-color: #ffffff;
+		padding: 10px 10px 0 0;
+		gap: 10px 10px;
+	}
+	.portfolio-page-content > div {
+		width: 100%;
+		background-color: #f1f1f1;
+		padding: 1fr;
+	  }
