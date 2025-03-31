@@ -31,30 +31,60 @@
          <div class="portfolio-page-content">
             <div class="portfolio-page-box">
              <div class="portfolio-page-embed">
-                <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">1 / 3</div>
+                      <img src="lib-diversity-thumb.svg" style="width:100%">
+                      <!-- <div class="text rethink-sans-subhead">Caption</div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">2 / 3</div>
+                      <img src="libguide-thumb.svg" style="width:100%">
+                      <!-- <div class="text rethink-sans-subhead">Caption Two</div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">3 / 3</div>
+                      <img src="collage-thumb.svg" style="width:100%">
+                      <!-- <div class="text rethink-sans-subhead">Caption Three</div> -->
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                <!-- <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
                   <iframe src="Lorum Ipsum Test PDF.pdf#page=1" width="100%" height="100%" style="border: none;">
                    This browser does not support PDFs. Please download the PDF to view it: 
                   <a href="Lorum Ipsum Test PDF.pdf">Download PDF</a>
                    </iframe>
-                </object>
+                </object> -->
               </div>
             </div>
             <div class="portfolio-page-box">
               <!-- Should I make this a table? Or should I do headers and then content? Or an accordion?? -->
               <button class="accordion">Project Description</button>
-              <div class="panel">
+              <div class="panel rethink-sans-bodyfont">
                 <p>Lorem Ipsum...</p>
               </div>
               <button class="accordion">Methods</button>
-              <div class="panel">
+              <div class="panel rethink-sans-bodyfont">
                 <p>Lorem Ipsum...</p>
               </div>
               <button class="accordion">My Role</button>
-              <div class="panel">
+              <div class="panel rethink-sans-bodyfont">
                 <p>Lorem Ipsum...</p>
               </div>
               <button class="accordion">Skills Highlighted</button>
-              <div class="panel">
+              <div class="panel rethink-sans-bodyfont">
                 <p>Lorem Ipsum...</p>
               </div>
             </div>
@@ -66,16 +96,18 @@
               <h2 class="rethink-sans-subhead">Access this Project:</h2>
             </div>
             <div class="access-project-links rethink-sans-bodyfont">
-              <p><a>Project link</a></p>
-              <a id="folder-download" href="Lorum Ipsum Test PDF.pdf" download="">See the Project</a>
+              <p><a href="https://studentwork.prattsi.org/infovis/visualization/exploring-demographic-homogeneity-in-librarianship-a-data-driven-approach/">Project Write Up (on Pratt blog)</a></p>
+              <a id="folder-download" href="" download="">PDF Version of the Blog Post</a>
             </div>  
           </div>
         </div>
       </div>
+    <a href="test.html">Test</a>
     <footer>
       <p class="attribution">© Madeleine Casey 2025.  All graphics created by Madeleine Casey.</p>
     </footer>
 <script>
+// Accordion Menu Functionality
   var acc = document.getElementsByClassName("accordion");
   var i;
       
@@ -90,5 +122,32 @@
       }
       });
   }
+//   Carousel JavaScript
+  let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
 </script>
 </body>
