@@ -60,7 +60,7 @@
             <!-- Should I make this a table? Or should I do headers and then content? Or an accordion?? -->
             <button class="accordion">Project Description</button>
             <div class="panel">
-            <p>Lorem Ipsum...</p>
+              <p>Lorem Ipsum...</p>
             </div>
             <button class="accordion">Methods</button>
             <div class="panel">
@@ -81,4 +81,21 @@
     <footer>
       <p class="attribution">© Madeleine Casey 2025.  All graphics created by Madeleine Casey.</p>
     </footer>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+      
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+      } else {
+      panel.style.display = "block";
+      }
+      });
+  }
+</script>
+
 </body>
