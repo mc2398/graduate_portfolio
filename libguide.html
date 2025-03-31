@@ -15,14 +15,36 @@
 <body>
     <header class="libguide-head-background">
         <h1 class="libguide-h1">Queer Speculative<br>Fiction Libguide</h1>
-        <button id="test1" onclick="yassify()">Test</button>
     </header>
-    <div class="portfolio-page-content">
-        <div>
+    <div id="testhi">
+      <div class="testhey" id="nav-block">
+        <nav class="portfolio-nav">
+          <div class="rethink-sans-bodyfont">
+            <ul class="nav-list">
+              <li><a id="nav-home" href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="resume.html">Resume</a></li>
+            </ul>
+          </div>  
+        </nav>
+      </div>
+      <div class="testhey">
+       <div class="portfolio-page-content">
+          <div class="portfolio-page-box">
+           <div class="portfolio-page-embed">
+              <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
+                <iframe src="Lorum Ipsum Test PDF.pdf#page=1" width="100%" height="100%" style="border: none;">
+                 This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="Lorum Ipsum Test PDF.pdf">Download PDF</a>
+                 </iframe>
+              </object>
+            </div>
+          </div>
+          <div class="portfolio-page-box">
             <!-- Should I make this a table? Or should I do headers and then content? Or an accordion?? -->
             <button class="accordion">Project Description</button>
             <div class="panel">
-              <p>Lorem Ipsum...</p>
+            <p>Lorem Ipsum...</p>
             </div>
             <button class="accordion">Methods</button>
             <div class="panel">
@@ -36,54 +58,10 @@
             <div class="panel">
               <p>Lorem Ipsum...</p>
             </div>
-            <!-- <p>Project Link</p>
-            <p>Project Description</p>
-            <p>Methods</p>
-            <p>Showcased Skills</p> -->
+          </div>
         </div>
-        <div class="portfolio-page-embed">
-        <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
-            <iframe src="Lorum Ipsum Test PDF.pdf#page=1" width="100%" height="100%" style="border: none;">
-            This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="Lorum Ipsum Test PDF.pdf">Download PDF</a>
-            </iframe>
-         </object>
-        </div>
-     </div>
+      </div>
+    </div>
     <footer>
     </footer>
-<script>
-  function yassify() {
-  document.getElementByClass("libguide-head-background").style.color =
-  "#F51387";
-}
-// function makeBoring() {
-//     document.getElementsByClass("accordion").style.color = "black";
-// }
-//   const element = document.getElementById("accordion");
-  
-//   element.addEventListener("click", function() {
-//   // Generate a random color
-//   const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
- 
-
-//   // Change the background color of the element
-//   element.style.backgroundColor = randomColor;
-//   });
-
-// // var acc = document.getElementsByClassName("accordion");
-// // var i;
-
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.maxHeight) {
-//       panel.style.maxHeight = null;
-//     } else {
-//       panel.style.maxHeight = panel.scrollHeight + "px";
-//     } 
-//   });
-// }
-</script>
 </body>

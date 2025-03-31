@@ -221,6 +221,18 @@ body {
 	/* vertical-align: bottom; */
 }
 
+/* Portfolio Page Grid Layout */
+.portfolio-page-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffffff;
+    padding: 10px 10px 0 0;
+	gap: 10px 10px;
+}
+.portfolio-page-content > div {
+	background-color: #f1f1f1;
+	padding: 1fr;
+  }
 /* HOMEPAGE */
 
 /* header for the Homepage*/
@@ -296,6 +308,7 @@ a:hover{
 	text-align: left;
 	border: none;
 	outline: none;
+	font-size: 4vw;
 	transition: 0.4s;
   }
   
@@ -324,3 +337,28 @@ a:hover{
 .active:after {
 	content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+.portfolio-nav a {
+	text-decoration: none;
+	color: #000000;
+	float: left;
+	font-size: 3vw;
+	padding: 2% 16px;
+	margin: 0 0 2% 0;
+}
+.nav-list {
+	list-style: none;
+}
+#testhi {
+	display: flex;
+	flex-direction: column;
+}
+/* a#nav-home {
+	padding: 2% 16px 2% 0;
+} */
+ul {
+	padding-inline-start: 2vw;
+}
+#nav-block {
+	background-color: #f1f1f1;
+}
