@@ -4,7 +4,7 @@
 }
 h1 {
 	margin: 20% 10% 0 10%;
-	font-size: 1.75em;
+	font-size: 2em;
 }
 /* Homepage Styling */
 .home-container {
@@ -37,7 +37,7 @@ h1 {
 	font-size: 2vw;
 }
 #portfolio-h1 {
-	font-size: 1em;
+	font-size: 2.5em;
 }
 .portfolio-page-content {
 	width: 100%;
