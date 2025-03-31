@@ -1,0 +1,27 @@
+Metadata has the following flagsRequired Fields Missing Data at row: column
+{17: 'pb:identifier', 18: 'pb:identifier', 13: 'pb:pbcoreTitle'}
+
+Contains Unexpected values in fields that should be empty at row: column
+{4: 'pb:pbcoreRelation'}
+
+Contains values with unexpected lengths at (column, row) 
+{('pb:contributor', 12): 'unexpectedly short entry length', ('pb:contributor', 17): 'unexpectedly short entry length', ('pb:contributor', 18): 'unexpectedly short entry length', ('pb:creator', 5): 'unexpectedly short entry length', ('pb:creator', 17): 'unexpectedly short entry length', ('pb:creator', 18): 'unexpectedly short entry length'} in the contributor column
+
+Contains missing or invalid dates in the date field at rows: 
+{11: 'date syntax error', 17: 'missing a date', 18: 'missing a date'}
+
+Contains values with invalid language tags at rows: 
+{2: 'language tag error', 17: 'language tag error', 18: 'language tag error'}
+
+Contains missing or poorly formed links at row: column 
+{17: 'pb:identifier', 18: 'pb:identifier', 10: 'Reference', 22: 'Reference', 44: 'Reference', 68: 'Reference', 70: 'Reference', 80: 'Reference', 86: 'Reference', 96: 'Reference', 100: 'Reference', 104: 'Reference', 105: 'Reference', 106: 'Reference', 136: 'Reference'}
+
+Identifier column contains link values with the following flagged status codes at:
+{8: [404], 17: ['missing link'], 18: ['missing link']}
+
+Subject references contains missing or erroneous links at: 
+{10: 'missing subject reference', 18: 'subject reference contains an error', 22: 'missing subject reference', 43: 'subject reference contains an error', 44: 'subject reference contains an error', 48: 'subject reference contains an error', 49: 'subject reference contains an error', 50: 'subject reference contains an error', 51: 'subject reference contains an error', 52: 'subject reference contains an error', 53: 'subject reference contains an error', 54: 'subject reference contains an error', 68: 'missing subject reference', 70: 'missing subject reference', 80: 'missing subject reference', 86: 'missing subject reference', 96: 'missing subject reference', 97: 'subject reference contains an error', 99: 'subject reference contains an error', 100: 'missing subject reference', 102: 'subject reference contains an error', 104: 'missing subject reference', 105: 'missing subject reference', 106: 'missing subject reference', 108: 'subject reference contains an error', 110: 'subject reference contains an error', 112: 'subject reference contains an error', 113: 'subject reference contains an error', 116: 'subject reference contains an error', 129: 'subject reference contains an error', 131: 'subject reference contains an error', 135: 'subject reference contains an error', 136: 'missing subject reference', 138: 'subject reference contains an error', 139: 'subject reference contains an error', 142: 'subject reference contains an error', 143: 'subject reference contains an error', 144: 'subject reference contains an error', 145: 'subject reference contains an error', 146: 'subject reference contains an error', 147: 'subject reference contains an error', 148: 'subject reference contains an error', 149: 'subject reference contains an error', 150: 'subject reference contains an error', 151: 'subject reference contains an error', 152: 'subject reference contains an error', 153: 'subject reference contains an error', 154: 'subject reference contains an error', 155: 'subject reference contains an error', 156: 'subject reference contains an error', 157: 'subject reference contains an error', 158: 'subject reference contains an error', 159: 'subject reference contains an error', 160: 'subject reference contains an error', 161: 'subject reference contains an error', 162: 'subject reference contains an error'}
+
+Annotation contains the following possible spelling errors at row: 
+{0: set(), 1: set(), 2: {'fussel', 'childhoood', "women's", 'blogosphere'}, 3: {'fussel', 'childhoood', "women's", 'blogosphere'}, 4: {'fussel', 'childhoood', "women's", 'blogosphere'}, 5: {'eventually—she', 'fales', 'lavon', 'writers"', 'suzannah', '"the', 'temporarily—for', '11000-volume'}, 6: {'eventually—she', 'fales', 'lavon', 'writers"', 'suzannah', '"the', 'temporarily—for', '11000-volume'}, 7: {'sought-after', '(wwwfoodpoliticscom)', 'highly-read', 'ground-breaking', 'pre-second'}, 8: {'sought-after', '(wwwfoodpoliticscom)', 'highly-read', 'ground-breaking', 'pre-second'}, 9: {'sought-after', '(wwwfoodpoliticscom)', 'highly-read', 'ground-breaking', 'pre-second'}, 10: {'vegas)', 'silverbush', 'emerged—the', "'wichcraft", 'colichio', 'las', 'on-the-jobs', '(including', 'best-known', 'well-reviewed', 'better-known', 'craftsteak)', 'craftbar'}, 11: {'vegas)', 'silverbush', 'emerged—the', "'wichcraft", 'colichio', 'las', 'on-the-jobs', '(including', 'best-known', 'well-reviewed', 'better-known', 'craftsteak)', 'craftbar'}, 12: {'cooking)', 'single-subject', '(vegetables', 'exhaustively-researched'}, 13: {'cooking)', 'single-subject', '(vegetables', 'exhaustively-researched'}, 14: {'cooking)', 'single-subject', '(vegetables', 'exhaustively-researched'}, 15: {'pbs', 'part-time', 'batali', 'best-known', 'felidia', 'mini-empire'}, 16: {'pbs', 'part-time', 'batali', 'best-known', 'felidia', 'mini-empire'}, 17: set(), 18: set()}
+ note: "set()" means no flagged errors
