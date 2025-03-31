@@ -1,7 +1,10 @@
 /*linking in css stylesheet to pull in different style defaults for small/mobile screens- note page was not designed mobile first due to the parameters of this project*/
 /* @import url('desktop-styles.css') (min-width:800px); */
-@import "desktop-styles.css" screen and (min-width: 600px) and (max-width: 1000px);
-
+@import "mobile-styles.css" screen and (max-width: 600px);
+@import "tablet-styles.css" screen and (min-width: 600px) and (max-width: 768px);
+@import "landscape-tablets-styles.css" screen and (min-width: 768px) and (max-width: 992px);
+@import "laptops-styles.css" screen and (min-width: 992px) and (max-width: 1200px);
+@import "extra-large-devices-styles.css" screen and (min-width: 1200px);
 
 .rethink-sans-subhead {
 	font-family: "Rethink Sans", sans-serif;
@@ -86,93 +89,6 @@ h1 {
 	font-weight: 400;
 	font-style: normal;
 }
-@media screen and (min-width: 1000px) {
-	.homepage-head-background {
-		width: 100%;
-		height: 400px;
-		/* margin-bottom: 0; */
-		background-size: cover;
-		background: url('portfolio-header.svg');
-		background-repeat: no-repeat;
-		/*overflow: hidden;*/
-	}
-	.libguide-head-background {
-		background: url('libguide-header-1000+.svg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 100%
-		/* height: 350px; */
-	}
-	.libguide-h1 {
-		margin: 10% 30% 10% 30%;
-
-	}
-	h1 {
-		background-color: white;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 10%;
-		padding: 5px;
-		/* font-family: "Galindo", sans-serif; */
-		font-size: 2.5em;
-		text-align: center;
-	}
-}
-/* @media screen and (min-width:600px) and (max-width: 1000px){
-	.homepage-head-background {
-		width: 100%;
-		height: 200px;
-		background-size: cover;
-		background: url('portfolio-header.svg');
-		background-repeat: round;
-		overflow: hidden;
-	}
-	h1 {
-		background-color: white;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 10%;
-		padding: 5px;
-		/* font-family: "Galindo", sans-serif; 
-		font-size: 2em;
-		text-align: center;
-	}
-} */
-@media screen and (min-width:480px) and (max-width: 600px){
-	.homepage-head-background {
-		width: 100%;
-		height: 350px;
-		background: url('portfolio-header-480-600.svg');
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	h1 {
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 20%;
-		margin-bottom: 0;
-		font-size: 2.5em;
-		background-color: white;
-	}
-}
-@media screen and (max-width: 480px){
-	.homepage-head-background {
-	width: 100%;
-	height: 400px;
-	background-size: cover;
-	background: url('portfolio-mobile-header.svg');
-	background-repeat: no-repeat;
-}
-h1 {
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 20%;
-	margin-bottom: 0;
-	font-size: 2.5em;
-	background-color: white;
-}
-}
-
 /* Styling the Portfolio Page*/
 .portfolio-heading {
 	/* width: 90%; */
@@ -349,7 +265,7 @@ a:hover{
 .nav-list {
 	list-style: none;
 }
-#testhi {
+.subpage-content {
 	display: flex;
 	flex-direction: column;
 }
