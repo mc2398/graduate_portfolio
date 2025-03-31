@@ -1,30 +1,16 @@
 	.homepage-head-background {
-		width: 100%;
 		height: 400px;
-		/* margin-bottom: 0; */
-		background-size: cover;
 		background: url('portfolio-header.svg');
-		background-repeat: no-repeat;
-		/*overflow: hidden;*/
 	}
-	.libguide-head-background {
+	#libguide-head-background {
 		background: url('libguide-header-1000+.svg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 100%
-		/* height: 350px; */
-	}
-	.libguide-h1 {
-		margin: 10% 30% 10% 30%;
-
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
 	}
 	h1 {
-		background-color: white;
-		margin-right: 10%;
-		margin-left: 10%;
-		margin-top: 10%;
+        margin: 10% 30% 10% 30%;
 		padding: 5px;
-		/* font-family: "Galindo", sans-serif; */
 		font-size: 2.5em;
-		text-align: center;
 	}

@@ -6,6 +6,29 @@
 @import "laptops-styles.css" screen and (min-width: 992px) and (max-width: 1200px);
 @import "extra-large-devices-styles.css" screen and (min-width: 1200px);
 
+
+/* Header Formatting- all screen widths */
+h1 {
+	background-color: white;
+	text-align: center;
+	font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.homepage-head-background {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Portfolio Subpage Headers- all screen widths */
+.sub-portfolio-head-background {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .rethink-sans-subhead {
 	font-family: "Rethink Sans", sans-serif;
 	font-optical-sizing: auto;
@@ -84,11 +107,6 @@ button a:hover{
 	/* font-family: ; */
 }
 
-h1 {
-	font-family: "Galindo", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
 /* Styling the Portfolio Page*/
 .portfolio-heading {
 	/* width: 90%; */
@@ -151,14 +169,6 @@ body {
   }
 /* HOMEPAGE */
 
-/* header for the Homepage*/
-
-#welcome {
-    font-family: "Galindo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-      }
 
 /* Content Layout- Homepage*/
 
@@ -184,7 +194,7 @@ header {
 	color: black;
 	background-color: #000000;
 	padding: 10px 0;
-	width:100%;
+	/* width:100%; */
 
 }
 
@@ -198,19 +208,6 @@ button {
 	margin-top: 20px;
 }
 
-/* Navigation (Buttons) for Sub-Pages- initially set up as links embedded in buttons, had to switch due to code validation issues*/
-/*.fake-button {
-	color: white;
-	background-color: #FFCAD7;
-	padding: 20px;
-	font-size: 1.5em;
-	border-radius: 10px;
-	font-family: 'Gorditas', serif;
-	margin-top: 40px;
-	outline: 2px solid black;
-	text-decoration: none;
-}
-*/
 a:hover{
 	text-decoration:underline;
 }
