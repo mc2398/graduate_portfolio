@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-  /* background-color: #eee; */
-  /* color: #444; */
-  /* cursor: pointer; */
-  /* padding: 18px; */
-    width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  /* transition: 0.4s; */
-}
-
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-}
-</style>
-<!-- <script src="scripts.js"></script> -->
-</head>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Maddy Casey Portfolio</title>
+  	<meta name="description" content=""A digital portfolio reflecting my work as a graduate student in the MsLIS program at the Pratt Institute">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cantora+One&family=Galindo&family=Gorditas:wght@400;700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!-- <script src="scripts.js"></script> -->
+  </head>
 <body>
-
-    <div class="portfolio-page-box">
-        <div class="portfolio-page-embed">
-           <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
-             <iframe src="Lorum Ipsum Test PDF.pdf#page=1" width="100%" height="100%" style="border: none;">
-              This browser does not support PDFs. Please download the PDF to view it: 
-             <a href="Lorum Ipsum Test PDF.pdf">Download PDF</a>
-              </iframe>
-           </object>
-         </div>
-       </div>
-<h2>Accordion</h2>
-<div class="portfolio-page-box">
-<div>
-	<button class="accordion">Section 1</button>
-	<div class="panel">
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-
-	<button class="accordion">Section 2</button>
-	<div class="panel">
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-
-	<button class="accordion">Section 3</button>
-	<div class="panel">
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-</div>    
-</div>
+    <header class="sub-portfolio-head-background" id="collage-head-background">
+        <h1 class="collage-h1">This Book is Challeng(ing/ed)</h1>
+    </header>
+    <div class="subpage-content">
+        <div class="subpage-section" id="nav-block">
+          <nav class="portfolio-nav">
+            <div class="rethink-sans-bodyfont">
+              <ul class="nav-list">
+                <li><a id="nav-home" href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>  
+          </nav>
+        </div>
+        <div class="subpage-section">
+         <div class="portfolio-page-content">
+            <div class="portfolio-page-box">
+             <div class="portfolio-page-embed">
+                <object data="Lorum Ipsum Test PDF.pdf#page=1" type="application/pdf" width="100%" height="100%">
+                  <iframe src="Lorum Ipsum Test PDF.pdf#page=1" width="100%" height="100%" style="border: none;">
+                   This browser does not support PDFs. Please download the PDF to view it: 
+                  <a href="Lorum Ipsum Test PDF.pdf">Download PDF</a>
+                   </iframe>
+                </object>
+              </div>
+            </div>
+            <div class="portfolio-page-box">
+              <!-- Should I make this a table? Or should I do headers and then content? Or an accordion?? -->
+              <button class="accordion">Project Description</button>
+              <div class="panel">
+                <p>Lorem Ipsum...</p>
+              </div>
+              <button class="accordion">Methods</button>
+              <div class="panel">
+                <p>Lorem Ipsum...</p>
+              </div>
+              <button class="accordion">My Role</button>
+              <div class="panel">
+                <p>Lorem Ipsum...</p>
+              </div>
+              <button class="accordion">Skills Highlighted</button>
+              <div class="panel">
+                <p>Lorem Ipsum...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class ="subpage-section">
+          <div class="access-project-section">
+            <div class="access-project-head">
+              <h2 class="rethink-sans-subhead">Access this Project:</h2>
+            </div>
+            <div class="access-project-links rethink-sans-bodyfont">
+              <p><a>Project link</a></p>
+              <a id="folder-download" href="Lorum Ipsum Test PDF.pdf" download="">See the Project</a>
+            </div>  
+          </div>
+        </div>
+      </div>
+    <footer>
+      <p class="attribution">© Madeleine Casey 2025.  All graphics created by Madeleine Casey.</p>
+    </footer>
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+      
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
-    } else {
+      } else {
       panel.style.display = "block";
-    }
-  });
-}
+      }
+      });
+  }
 </script>
-
 </body>
-</html>

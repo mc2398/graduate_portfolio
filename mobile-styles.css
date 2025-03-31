@@ -58,3 +58,8 @@ button {
 	font-size: 1.5em;
 	margin: 10%;
 }
+
+/* Subpage Header Backdrops and Layout */
+#lib-diversity-head-background {
+	background-color: green;
+}

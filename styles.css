@@ -315,3 +315,15 @@ ul {
 	text-decoration: none;
 	color: black;
 }
+.access-project-section {
+	margin-left: 0;
+	margin-right: 0;
+}
+.access-project-head {
+	margin-top: 2%;
+	width: 20%;
+	text-align: right;
+}
+.access-project-links {
+	text-align: left;
+}
