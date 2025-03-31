@@ -275,3 +275,15 @@ ul {
 #nav-block {
 	background-color: #f1f1f1;
 }
+.access-project-section {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+	gap: 10px 10px;
+}
+.access-project-section > div {
+	width: 50%;
+	/* justify-content: center; */
+	background-color: #ffffff;
+	padding: 1fr;
+  }
