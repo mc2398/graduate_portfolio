@@ -105,3 +105,16 @@ font-size: 2vw;
     padding: 5px;
     font-size: 3em;
 }
+#lib-diversity-head-background {
+    background: url('lib-diversity-head-laptop+.svg');
+    background-position: top center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.lib-diversity-h1 {
+    margin: 10% 18% 10% 18%;
+    padding: 5px;
+    font-size: 3em;
+}
