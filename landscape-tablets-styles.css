@@ -96,3 +96,16 @@ button {
 	padding: 5px;
 	font-size: 2.5em;
 }
+#validator-head-background {
+	background: url('validator-head-laptop+.svg');
+	background-position: top center;
+	height: 275px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.validator-h1 {
+	margin: 10% 25% 10% 25%;
+	padding: 5px;
+	font-size: 2.5em;
+}

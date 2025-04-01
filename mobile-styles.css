@@ -115,3 +115,16 @@ button {
 	padding: 5px;
 	font-size: 2em;
 }
+#validator-head-background {
+	background: url('validator-head-mobile.svg');
+	background-position: top center;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.validator-h1 {
+	margin: 18% 15% 18% 15%;
+	padding: 5px;
+	font-size: 2em;
+}
