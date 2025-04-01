@@ -118,3 +118,14 @@ font-size: 2vw;
     padding: 5px;
     font-size: 3em;
 }
+.resume-head-background {
+    background: url('resume-head-laptop+.svg');
+    background-position: top center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#resume-h1 {
+    color: pink;
+}
