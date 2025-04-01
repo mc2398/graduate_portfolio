@@ -223,7 +223,7 @@ a:hover{
 	text-align: left;
 	border: none;
 	outline: none;
-	font-size: 4vw;
+	font-size: 3.5vw;
 	transition: 0.4s;
   }
   
@@ -338,7 +338,9 @@ ul {
 	color: rgb(12, 12, 176);
 	text-decoration: underline;
 }
-
+.embed-caption {
+	margin: 1% 2% 1% 2%;
+}
 /* Carousel */
 * {box-sizing: border-box}
     body {font-family: Verdana, sans-serif; margin:0}
@@ -436,3 +438,4 @@ ul {
     @media only screen and (max-width: 300px) {
       .prev, .next,.text {font-size: 11px}
     }
+
