@@ -185,12 +185,19 @@ body {
 }
 #portfolio-download {
 	color: black;
-	font-size: 1.75em;
-	margin: 5% 1%;
+	font-size: 3vw;
+	/* margin: 50% 1%; */
 	text-decoration: none;
+	padding: 2vw;
+	background-color: white;
+	border: 2px solid black;
+  	border-radius: 10px;
 }
 #portfolio-download:hover {
 	text-decoration: underline;
+}
+#portfolio-download-box {
+	margin: 20% 1%;
 }
 /* Homepage- text content styling*/
 /* .about-message{
@@ -320,11 +327,14 @@ ul {
 	color: #000000;
 	float: left;
 	font-size: 4vw;
-	padding: 1% 2%;
+	padding: 2% 2%;
 	margin: 0 0 0 0;
 }
 .resume-nav ul {
 	margin: 2% 0 2% 0;
+}
+#resume-page-nav {
+	background-color: #f1f1f1;
 }
 .resume-content {
 	display: flex;
