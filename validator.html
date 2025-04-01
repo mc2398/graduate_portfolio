@@ -92,5 +92,14 @@
       }
       });
   }
+var zip = new JSZip();
+zip.file("files/validator-csvs/iso-639-3.csv", "files/validator-csvs/metadata_test.csv", "files/validator-csvs/people.csv", "files/validator-csvs/subject_headings.csv");
+var img = zip.folder("images");
+img.file("smile.gif", imgData, {base64: true});
+zip.generateAsync({type:"blob"})
+.then(function(content) {
+    // see FileSaver.js
+    saveAs(content, "example.zip");
+});
 </script>
 </body>
