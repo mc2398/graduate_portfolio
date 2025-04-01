@@ -141,3 +141,16 @@ button {
     padding: 5px;
     font-size: 1.75em;
 }
+.resume-head-background {
+	background: url('resume-head-mobile.svg');
+	background-position: top center;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+#resume-h1 {
+	margin: 18% 25% 18% 25%;
+	padding: 5px;
+	font-size: 2.5em;
+}

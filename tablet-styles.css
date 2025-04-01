@@ -119,3 +119,16 @@ button {
     padding: 5px;
     font-size: 2em;
 }
+.resume-head-background {
+	background: url('resume-head-midsized.svg');
+	background-position: top center;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+#resume-h1 {
+	margin: 15% 30% 12% 30%;
+	padding: 5px;
+	font-size: 2.5em;
+}

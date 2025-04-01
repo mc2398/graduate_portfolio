@@ -127,5 +127,7 @@ font-size: 2vw;
     width: 100%;
 }
 #resume-h1 {
-    color: pink;
+    margin: 10% 30% 10% 30%;
+    padding: 5px;
+    font-size: 3.5em;
 }
