@@ -183,7 +183,15 @@ body {
 	/*rotate:20deg;*/
 	transform:scale(1.1);
 }
-
+#portfolio-download {
+	color: black;
+	font-size: 1.75em;
+	margin: 5% 1%;
+	text-decoration: none;
+}
+#portfolio-download:hover {
+	text-decoration: underline;
+}
 /* Homepage- text content styling*/
 /* .about-message{
 	font-family: 'Calistoga', serif;
