@@ -35,11 +35,21 @@
 		margin: 0 10px;
 	}
 /* Portfolio Landing Page Styling */
+.portfolio-head-background {
+	height: 400px;
+	background: url('portfolio-head-midsized.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: top center;
+}
 .portfolio-heading {
 	font-size: 2vw;
 }
 #portfolio-h1 {
 	font-size: 2.5em;
+	margin: 15% 30% 10% 30%;
+	padding: 10px;
 }
 /* Portfolio Landing Page Styling */
 	.portfolio-page-content {

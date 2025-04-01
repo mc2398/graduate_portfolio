@@ -8,6 +8,7 @@
 		padding: 5px;
 		font-size: 4.5vw;
 	}
+
 	.home-container {
 		display: flex;
 		flex-direction: row;
@@ -36,6 +37,15 @@
 		margin: 0 10px;
 	}
 /* Portfolio Landing Page Styling */
+.portfolio-head-background {
+	height: 300px;
+	background: url('portfolio-head-midsized.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: center center;
+	
+}
 .portfolio-heading {
 	font-size: 2vw;
 }
