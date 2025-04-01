@@ -302,9 +302,18 @@ ul {
 
 /* Resume Page Styling */
 #resume-download {
+	padding: 10px;
+	background-color: #d3b8f0;
+	border: 2px solid black;
+  	border-radius: 10px;
 	color: black;
-	font-size: 5vw;
+	font-size: 4vw;
 	margin-top: 10%;
+	text-decoration: none;
+}
+#resume-download:hover {
+	text-decoration: underline;
+	color: white;
 }
 .resume-nav a {
 	text-decoration: none;
@@ -320,6 +329,10 @@ ul {
 .resume-content {
 	display: flex;
 	flex-direction: column;
+}
+#resume-download-box {
+	margin: 8% 0;
+	/* background-color: pink; */
 }
 .portfolio-link {
 	text-decoration: none;
