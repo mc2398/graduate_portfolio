@@ -132,3 +132,16 @@ button {
 	padding: 5px;
 	font-size: 2.5em;
 }
+#collage-head-background {
+	background: url('collage-head-midsized.svg');
+	background-position: top center;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.collage-h1 {
+	margin: 9% 20% 9% 20%;
+	padding: 5px;
+	font-size: 2.5em;
+}

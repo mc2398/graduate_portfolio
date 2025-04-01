@@ -131,3 +131,16 @@ font-size: 2vw;
     padding: 5px;
     font-size: 3.5em;
 }
+#collage-head-background {
+    background: url('collage-head-laptop+.svg');
+    background-position: top center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.collage-h1 {
+    margin: 8% 30% 8% 30%;
+    padding: 5px;
+    font-size: 3.5em;
+}

@@ -135,3 +135,16 @@ button {
 	padding: 5px;
 	font-size: 3em;
 }
+#collage-head-background {
+	background: url('collage-head-laptop+.svg');
+	background-position: top center;
+	height: 275px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.collage-h1 {
+	margin: 9% 22% 9% 22%;
+	padding: 5px;
+	font-size: 3em;
+}
