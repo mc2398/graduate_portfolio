@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 500">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #df8a0b;
+        stroke: #df8a0b;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        stroke-miterlimit: 10;
+      }
+
+      .st1, .st2 {
+        fill: #564125;
+        stroke: #564125;
+      }
+
+      .st1, .st5 {
+        stroke-width: 2px;
+      }
+
+      .st3, .st5 {
+        fill: #c2b59b;
+        stroke: #c2b59b;
+      }
+
+      .st4 {
+        fill: #95401c;
+        stroke: #95401c;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="st0" x="1" y="1.57" width="399" height="495.28"/>
+    <rect class="st2" x="0" y="3.15" width="399" height="495.28" rx="52.26" ry="52.26"/>
+    <rect class="st4" x="31.22" y="64.51" width="336.57" height="372.56" rx="50.44" ry="50.44"/>
+    <rect class="st0" x="79.83" y="98.32" width="239.34" height="304.94" rx="52.3" ry="52.3"/>
+    <ellipse class="st5" cx="199.5" cy="250.79" rx="56.14" ry="77.54"/>
+  </g>
+  <g>
+    <rect class="st0" x="801" width="399" height="498.4"/>
+    <rect class="st2" x="800" y="1.6" width="399" height="498.4" rx="52.26" ry="52.26"/>
+    <rect class="st4" x="831.22" y="63.34" width="336.57" height="374.91" rx="50.44" ry="50.44"/>
+    <rect class="st0" x="879.83" y="97.36" width="239.34" height="306.87" rx="52.3" ry="52.3"/>
+    <ellipse class="st5" cx="999.5" cy="250.8" rx="56.14" ry="78.03"/>
+  </g>
+  <g>
+    <rect class="st4" x="401" width="399" height="498.4"/>
+    <rect class="st3" x="400" y="1.6" width="399" height="498.4" rx="52.26" ry="52.26"/>
+    <rect class="st0" x="431.22" y="63.34" width="336.57" height="374.91" rx="50.44" ry="50.44"/>
+    <rect class="st4" x="479.83" y="97.36" width="239.34" height="306.87" rx="52.3" ry="52.3"/>
+    <ellipse class="st1" cx="599.5" cy="250.8" rx="56.14" ry="78.03"/>
+  </g>
+  <g>
+    <rect class="st4" x="1201" y="0" width="399" height="498.4"/>
+    <rect class="st3" x="1200" y="1.6" width="399" height="498.4" rx="52.26" ry="52.26"/>
+    <rect class="st0" x="1231.22" y="63.34" width="336.57" height="374.91" rx="50.44" ry="50.44"/>
+    <rect class="st4" x="1279.83" y="97.36" width="239.34" height="306.87" rx="52.3" ry="52.3"/>
+    <ellipse class="st1" cx="1399.5" cy="250.8" rx="56.14" ry="78.03"/>
+  </g>
+</svg>
