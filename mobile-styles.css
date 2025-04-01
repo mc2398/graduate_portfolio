@@ -99,9 +99,9 @@ button {
 .libguide-h1 {
 	margin: 30% 10%;
 }
-#lib-diversity-head-background {
+/* #lib-diversity-head-background {
 	background-color: green;
-}
+} */
 #baaaad-head-background {
 	background: url('images/baaaad-head-mobile.svg');
 	background-position: center center;
