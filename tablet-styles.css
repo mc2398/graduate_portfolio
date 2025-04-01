@@ -67,3 +67,16 @@
 button {
 	font-size: 4.75vw;
 }
+/* Subpage headers */
+#libguide-head-background {
+	background: url('libguide-head-midsize.svg');
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: top center;
+}
+.libguide-h1 {
+	font-size: 2em;
+	margin: 20% 18%;
+}
