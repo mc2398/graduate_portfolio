@@ -1,9 +1,9 @@
 	.homepage-head-background {
 		height: 400px;
-		background: url('portfolio-header.svg');
+		background: url('images/portfolio-header.svg');
 	}
 	#libguide-head-background {
-		background: url('libguide-header-1000+.svg');
+		background: url('images/libguide-header-1000+.svg');
         height: 350px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -11,7 +11,7 @@
         background-position: top center;
 	}
     .portfolio-head-background {
-        background: url('portfolios-header-laptop+.svg');
+        background: url('images/portfolios-header-laptop+.svg');
         height: 350px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -76,7 +76,7 @@ button {
     }
 /* Subpage Headers */
     #baaaad-head-background {
-        background: url('baaaad-head-laptop+.svg');
+        background: url('images/baaaad-head-laptop+.svg');
         background-position: top center;
         height: 350px;
         background-repeat: no-repeat;
@@ -89,7 +89,7 @@ button {
         font-size: 3em;
     }
     #validator-head-background {
-        background: url('validator-head-laptop+.svg');
+        background: url('images/validator-head-laptop+.svg');
         background-position: top center;
         height: 350px;
         background-repeat: no-repeat;
@@ -102,7 +102,7 @@ button {
         font-size: 3em;
     }
     #lib-diversity-head-background {
-        background: url('lib-diversity-head-laptop+.svg');
+        background: url('images/lib-diversity-head-laptop+.svg');
         background-position: top center;
         height: 350px;
         background-repeat: no-repeat;
@@ -115,7 +115,7 @@ button {
         font-size: 3em;
     }
     .resume-head-background {
-        background: url('resume-head-laptop+.svg');
+        background: url('images/resume-head-laptop+.svg');
         background-position: top center;
         height: 350px;
         background-repeat: no-repeat;
@@ -128,7 +128,7 @@ button {
         font-size: 3em;
     }
     #collage-head-background {
-        background: url('collage-head-laptop+.svg');
+        background: url('images/collage-head-laptop+.svg');
         background-position: top center;
         height: 350px;
         background-repeat: no-repeat;

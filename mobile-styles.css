@@ -1,6 +1,6 @@
 .homepage-head-background {
 	height: 300px;
-	background: url('portfolio-mobile-header.svg');
+	background: url('images/portfolio-mobile-header.svg');
 }
 h1 {
 	margin: 20% 10% 0 10%;
@@ -36,7 +36,7 @@ h1 {
 /* Portfolio Landing Page Styling */
 .portfolio-head-background {
 	height: 400px;
-	background: url('portfolio-head-mobile.svg');
+	background: url('images/portfolio-head-mobile.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -89,7 +89,7 @@ button {
 
 /* Subpage Header Backdrops and Layout */
 #libguide-head-background {
-	background: url('libguide-mobile-header.svg');
+	background: url('images/libguide-mobile-header.svg');
 	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -103,7 +103,7 @@ button {
 	background-color: green;
 }
 #baaaad-head-background {
-	background: url('baaaad-head-mobile.svg');
+	background: url('images/baaaad-head-mobile.svg');
 	background-position: center center;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -116,7 +116,7 @@ button {
 	font-size: 2em;
 }
 #validator-head-background {
-	background: url('validator-head-mobile.svg');
+	background: url('images/validator-head-mobile.svg');
 	background-position: top center;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -129,7 +129,7 @@ button {
 	font-size: 2em;
 }
 #lib-diversity-head-background {
-    background: url('lib-diversity-head-midsized.svg');
+    background: url('images/lib-diversity-head-midsized.svg');
     background-position: top center;
     height: 300px;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ button {
     font-size: 1.75em;
 }
 .resume-head-background {
-	background: url('resume-head-mobile.svg');
+	background: url('images/resume-head-mobile.svg');
 	background-position: top center;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -155,7 +155,7 @@ button {
 	font-size: 2.5em;
 }
 #collage-head-background {
-	background: url('collage-head-mobile.svg');
+	background: url('images/collage-head-mobile.svg');
 	background-position: top center;
 	height: 400px;
 	background-repeat: no-repeat;

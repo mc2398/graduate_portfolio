@@ -1,6 +1,6 @@
 	.homepage-head-background {
 		height: 275px;
-		background: url('portfolio-header.svg');
+		background: url('images/portfolio-header.svg');
 		justify-content: center;
 	}
 	h1 {
@@ -39,7 +39,7 @@
 /* Portfolio Landing Page Styling */
 .portfolio-head-background {
 	height: 300px;
-	background: url('portfolio-head-midsized.svg');
+	background: url('images/portfolio-head-midsized.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -72,7 +72,7 @@ button {
 }
 /* Subpage headers */
 #libguide-head-background {
-	background: url('libguide-header-1000+.svg');
+	background: url('images/libguide-header-1000+.svg');
 	height: 275px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -84,7 +84,7 @@ button {
 	margin: 10% 27%;
 }
 #baaaad-head-background {
-	background: url('baaaad-head-laptop+.svg');
+	background: url('images/baaaad-head-laptop+.svg');
 	background-position: top center;
 	height: 275px;
 	background-repeat: no-repeat;
@@ -97,7 +97,7 @@ button {
 	font-size: 2.5em;
 }
 #validator-head-background {
-	background: url('validator-head-laptop+.svg');
+	background: url('images/validator-head-laptop+.svg');
 	background-position: top center;
 	height: 275px;
 	background-repeat: no-repeat;
@@ -110,7 +110,7 @@ button {
 	font-size: 2.5em;
 }
 #lib-diversity-head-background {
-    background: url('lib-diversity-head-midsized.svg');
+    background: url('images/lib-diversity-head-midsized.svg');
     background-position: top center;
     height: 275px;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ button {
     font-size: 2.25em;
 }
 .resume-head-background {
-	background: url('resume-head-laptop+.svg');
+	background: url('images/resume-head-laptop+.svg');
 	background-position: top center;
 	height: 275px;
 	background-repeat: no-repeat;
@@ -136,7 +136,7 @@ button {
 	font-size: 3em;
 }
 #collage-head-background {
-	background: url('collage-head-laptop+.svg');
+	background: url('images/collage-head-laptop+.svg');
 	background-position: top center;
 	height: 275px;
 	background-repeat: no-repeat;

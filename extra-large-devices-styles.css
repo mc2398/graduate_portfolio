@@ -1,9 +1,9 @@
 .homepage-head-background {
     height: 400px;
-    background: url('portfolio-header.svg');
+    background: url('images/portfolio-header.svg');
 }
 .portfolio-head-background {
-    background: url('portfolios-header-laptop+.svg');
+    background: url('images/portfolios-header-laptop+.svg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
     background-position: center center;
 }
 #libguide-head-background {
-    background: url('libguide-header-1000+.svg');
+    background: url('images/libguide-header-1000+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ font-size: 2vw;
 }
 
 #baaaad-head-background {
-    background: url('baaaad-head-laptop+.svg');
+    background: url('images/baaaad-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ font-size: 2vw;
     font-size: 3em;
 }
 #validator-head-background {
-    background: url('validator-head-laptop+.svg');
+    background: url('images/validator-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ font-size: 2vw;
     font-size: 3em;
 }
 #lib-diversity-head-background {
-    background: url('lib-diversity-head-laptop+.svg');
+    background: url('images/lib-diversity-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ font-size: 2vw;
     font-size: 3em;
 }
 .resume-head-background {
-    background: url('resume-head-laptop+.svg');
+    background: url('images/resume-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ font-size: 2vw;
     font-size: 3.5em;
 }
 #collage-head-background {
-    background: url('collage-head-laptop+.svg');
+    background: url('images/collage-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
