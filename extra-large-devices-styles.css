@@ -78,3 +78,12 @@ font-size: 2vw;
   button {
     font-size: 2.5vw;
 }
+
+#baaaad-head-background {
+    background: url('libguide-header-1000+.svg');
+    background-position: top center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
