@@ -80,3 +80,16 @@ button {
 	font-size: 2em;
 	margin: 20% 18%;
 }
+#baaaad-head-background {
+	background: url('baaaad-head-midsize.svg');
+	/* background-position: center center; */
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.baaaad-h1 {
+	margin: 10% 20% 10% 20%;
+	padding: 5px;
+	font-size: 2em;
+}

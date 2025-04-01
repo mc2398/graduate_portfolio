@@ -102,3 +102,16 @@ button {
 #lib-diversity-head-background {
 	background-color: green;
 }
+#baaaad-head-background {
+	background: url('baaaad-head-mobile.svg');
+	background-position: center center;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.baaaad-h1 {
+	margin: 18% 20% 18% 20%;
+	padding: 5px;
+	font-size: 2em;
+}

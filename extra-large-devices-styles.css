@@ -80,10 +80,15 @@ font-size: 2vw;
 }
 
 #baaaad-head-background {
-    background: url('libguide-header-1000+.svg');
+    background: url('baaaad-head-laptop+.svg');
     background-position: top center;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+.baaaad-h1 {
+    margin: 10% 35% 10% 35%;
+    padding: 5px;
+    font-size: 3em;
 }

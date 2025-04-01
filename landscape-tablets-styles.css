@@ -83,3 +83,16 @@ button {
 	font-size: 2em;
 	margin: 10% 27%;
 }
+#baaaad-head-background {
+	background: url('baaaad-head-laptop+.svg');
+	background-position: top center;
+	height: 275px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.baaaad-h1 {
+	margin: 10% 25% 10% 25%;
+	padding: 5px;
+	font-size: 2.5em;
+}
