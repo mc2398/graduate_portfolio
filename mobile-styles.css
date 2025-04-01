@@ -88,6 +88,17 @@ button {
 }
 
 /* Subpage Header Backdrops and Layout */
+#libguide-head-background {
+	background: url('libguide-mobile-header.svg');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: top center;
+}
+.libguide-h1 {
+	margin: 30% 10%;
+}
 #lib-diversity-head-background {
 	background-color: green;
 }
