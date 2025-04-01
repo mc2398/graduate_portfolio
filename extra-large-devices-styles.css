@@ -2,6 +2,14 @@
     height: 400px;
     background: url('portfolio-header.svg');
 }
+.portfolio-head-background {
+    background: url('portfolios-header-laptop+.svg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
 #libguide-head-background {
     background: url('libguide-header-1000+.svg');
     background-position: top center;
@@ -51,7 +59,9 @@ h1 {
 font-size: 2vw;
 }
 #portfolio-h1 {
-font-size: 2.5em;
+    font-size: 2.75em;
+    margin: 7% 35% 7% 35%;
+    padding: 30px 5px 30px 5px;
 }
 /* Portfolio Subpage Styling */
 .portfolio-page-content {
