@@ -491,3 +491,8 @@ ul {
       .prev, .next,.text {font-size: 11px}
     }
 
+/* goodreads vis page styles */
+#good_reads_vis_1 {
+	margin: 20px;
+	width:80%;
+}
