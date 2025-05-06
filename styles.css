@@ -492,6 +492,27 @@ ul {
     }
 
 /* goodreads vis page styles */
+.sub-portfolio-head-background {
+	background-color: purple;
+}
+.subpage-content {
+	display: flex;
+	flex-direction: column;
+}
+.goodreads-page-content {
+	display: flex;
+	background-color: #ffffff;
+	padding: 10px 10px 0 0;
+	gap: 10px 10px;
+	}
+.goodreads-page-content > div {
+	width: 100%;
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 1fr;
+}
+
+
 #good_reads_vis_1 {
 	margin: 20px;
 	width:80%;
