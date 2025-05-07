@@ -32,6 +32,110 @@
         <div class="goodreads-page-content">
             <div class="goodreads-content-box">
                 <h2>About the Project</h2>
+                <p>The project was completed as part of a semester-long advanced data visualization class as part of my Master’s Degree in Library and Information Science.</p>
+                <h2>Project Goals</h2>
+                <p>This project was designed with the goal of establishing a reproducible data pipeline which could be applied by public librarians to assess their institutions' collections, in the hope of fostering insights which can be applied to collections development activities. As more and more cultural heritage institutions shift toward making their collections’ metadata publicly available for research, frameworks for potential applications for metadata can prove increasingly useful.  
+                While academic libraries have increasingly established positions for librarians with specialties in digital humanities, data, and oftentimes incentivize librarians to conduct research as part of their roles, public libraries typically lack similar positions and research responsibilities.  Thus, this project attempts to make all processes explicit in order to illustrate potential approaches to a similar project at under-resourced institutions.</p> 
+                <p>However, Goodreads users are a specific community- the data collected in the project is not treated as validly representative of readers in the U.S. or another such generalized audience; rather the Goodreads community is treated as a proxy for a library community.</p>
+                <h2>Metadata Collection</h2>
+                <p>In order to limit the scope of the project, I chose to analyze metadata from books which were nominated for the Goodreads Readers’ Choice Awards from 2011-2024.  Per the awards’ rules for eligibility, each year of eligibility lasts from early December of the prior year to the end of November in the year of eligibility (ie., to be eligible for the 2024 awards, books must have been released between November 16, 2023 and November 12, 2024). Goodreads analyzes statistics about the books which are published in each year of eligibility in order to determine nominations, and requires books to have an average rating of at least 3.5 at the time of nomination. Thus, the books included in the awards are popular books published each year.</p>
+                <p>Between ~300 and ~440  books are nominated for the awards each year, although the exact number has varied between years (table 1).</p>
+                
+                <h3>Table 1</h3>
+                <table>
+                    <tr>
+                      <th>year</th>
+                      <th>number of categories</th>
+                      <th>original number of books</th>
+                      <th>deduplicated number of books</th>
+                    </tr>
+                    <tr>
+                      <td>2024</td>
+                      <td>15</td>
+                      <td>300</td>
+                      <td>272</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>15</td>
+                      <td>299</td>
+                      <td>284</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>17</td>
+                        <td>340</td>
+                        <td>320</td>
+                      </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>17</td>
+                        <td>340</td>
+                        <td>323</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>20</td>
+                        <td>399</td>
+                        <td>381</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>384</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>21</td>
+                        <td>420</td>
+                        <td>385</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>390</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>393</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>390</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>20</td>
+                        <td>399</td>
+                        <td>392</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>20</td>
+                        <td>400</td>
+                        <td>391</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>20</td>
+                        <td>399</td>
+                        <td>379</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>22</td>
+                        <td>440</td>
+                        <td>401</td>
+                    </tr>
+                  </table>
+
+                <p>The nominated books are sorted into a series categories, which have changed over the years of the awards’ existence.  For example, in 2024, an audiobook category was added, and in 2022 the children’s category was phased out (figure 1).</p>
                 <div id="categories_gantt">
                     <div class='tableauPlaceholder' id='viz1746600967315' style='position: relative'>
                         <noscript>
@@ -55,24 +159,121 @@
                         </object>
                     </div>
                 </div>
-                <!-- <img src="images/categories_gantt_draft.png" alt="to be added" width="60%" height="600"> -->
+                <p>In terms of metadata used for the analysis, I chose to collect metadata which has a corresponding field which a public library would likely house for its collections. For a potential mapping of the metadata used in this project to public library collection metadata see table 2.</p>
+                
+                <h3>Table 2</h3>
                 <table>
                     <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
+                        <th>Goodreads Metadata</th>
+                        <th>Library Metadata</th>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                        <td>Inclusion in Goodreads Favorite Awards</td>
+                        <td>Annual Circulation Count</td>
                     </tr>
                     <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                        <td>Title</td>
+                        <td>Title</td>
                     </tr>
-                  </table>
+                    <tr>
+                        <td>Goodreads id</td>
+                        <td>(book id, determined by the institution)?</td>
+                    </tr>
+                    <tr>
+                        <td>Author</td>
+                        <td>Creator</td>
+                    </tr>
+                    <tr>
+                        <td>Genre</td>
+                        <td>Subject Terms</td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td>Abstract, as applicable</td>
+                    </tr>
+                    <tr>
+                        <td>Category of Awards</td>
+                        <td>Call Number</td>
+                    </tr>  
+                </table>
+                <p>While Goodreads collects data about users’ perspectives on books in the form of ratings and reviews, I chose not to include review and rating data so as to 1) avoid using user data without informed consent and 2) establish a data pipeline which corresponded to metadata collected at public libraries, which typically do not collect review style data from patrons, and often do not retain patron borrowing data to protect patron privacy.</p>
+
+                <h2>Project Pipeline</h2>
+                <p>In order to collect the metadata required for this project, I first wrote scripts in python which could web scrape book metadata from Goodreads. My project took significant inspiration from The Goodreads “Classics”: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism by Melanie Walsh and Maria Antoniak, which had previously developed a web scraper for a similar project, published on GitHub.  However, as of the time I conducted my project, the scripts used for the project were no longer functional (largely due to changes in the structure of Goodreads’ book pages).  Given the likelihood that the scripts I developed for this project will likely soon become obsolete, due to the nature of web development and web scraping, I chose to carefully document the purpose of the functions I wrote for the project, in order to facilitate methodological replication.</p>
+                <p>In my initial pass, I collected book titles, genre tags and description fields.  I subsequently manually added year of nomination, and awards category fields, added fields for book ids
+                    and to account for the “initial order” in which the books were pulled (to facilitate data sorting) and wrote an additional script to gather author names.</p>
+                <p>Facet analysis of the data in Open Refine revealed that there were no null values in the data set, and that the metadata was overall complete and accurate.  In a similar project, further tidying and remediation of the metadata would likely be necessary prior to continuing with the analysis.</p>
+                <p>However, I did notice that a number of books appeared multiple times in the dataset. For the most part this was due to the inclusion of categories such as “the best of 2011”, “best audiobooks” or “debut novel” (for which books could be nominated, in addition to thematic categories such as “romance” or “horror”).</p>
+                <p>For example, in 2024, How to End a Love Story by Yulin Kuang was nominated for both Favorite Romance Books and Favorite Debut Novel.</p>
+                <p>One approach to this problem would be to not include any books which fell into the “frequent duplicator” categories. However, in the case of the debut novels and audiobook categories, a handful of books were exclusively nominated for these categories.  Rather than removing all books in these categories, I chose instead to deduplicate the stories which were nominated for multiple categories (noting all categories for which they were nominated in a separate column) to retain data about the books which were solely nominated as debut novels or audiobooks.</p>
+                <h2>Data Analysis Methods</h2>
+                <p>The size of the dataset (5336 original records, 5085 following deduplication), allowed me to conduct data clean up in Google Sheets and OpenRefine. In order to enable analysis of the subject terms assigned to each book, I began by writing regular expressions to identify the presence of the top 200 subject terms identified in the nominated books. I determined the top 200 subject terms using text facet analysis of the genre field (separated into columns and transposed) in OpenRefine.</p>
+                <p>In order to uniquely identify each subject term I followed the below formula, which allowed for uniquely identifying each term.</p>
+                <p>=REGEXMATCH (C2, "^Term,|, Term,|, Term$")</p>
+                <p>In many cases using a simpler expression, would result in misidentification of certain terms. For example, the expression:</p>
+                <p>=REGEXMATCH (C2, "Fiction")</p>
+                <p>would also identify “Historical Fiction” or “Contemporary Fiction”.  In contract,  the specific expression I used</p>
+                <p>=REGEXMATCH (C2, "^Fiction,|, Fiction,|, Fiction$")</p>
+                <p>Uniquely identifies the term “Fiction” by taking advantage of the comma separated nature of subject terms in the genre field.</p>
+                <img src="" alt="" width="100%">
+                <img src="" alt="" width="100%">
+                <p>Upon collecting data on the inclusion of each of the top 200 terms in each books’s genre tag list, I converted the data about each book’s subjects to simple binary values in a new spreadsheet using a simple find and replace (0 for False and 1 for True), and conducted calculations to determine the number of books which were tagged in each category in each year.</p>
+                <p>In order to express the data as line charts, I calculated the percent of books which were tagged with each genre by dividing the number of books with the tag in each year from the total number of books in that year.</p>
+                <p>For example, in 2024, 184 books were tagged with the genre “fiction”.  272 unique stories were nominated for the awards in 2024. Thus the percent of books with the fiction tag (rounded to the second decimal for legibility) in 2024 was 67.65%.</p>
+                <img src="" alt="" width="100%">
+                <p>The binary data I collected about the assignment of each genre tag to the books was also useful for calculating simple correlations between topics or book categories and topics, to explore relationships between topics.  This was accomplished in Python, using simple scripts, and the libraries pandas and SciPy.</p>
+                <p>As a note, subject terms (called “genres” on Goodreads) can be a particularly useful tool for exploration of the topics included in a collection.  However there are limitations to their use as a reflection of materials’ topics; subject term tags are designed to facilitate discovery in a large database of materials, rather than describe books contents.  Additionally, the language used in subject terms is reflective of the cultural context, norms and expectations in which the terms are created. For example, the choice to tag a book as “lgbt” versus “queer” may reflect changing practices in semantic expressions of queerness just as much as the content of the book itself. Reparative metadata work oftentimes works to address inappropriate or culturally insensitive terminology.</p>
+                <h2>Findings Vignettes</h2>
+                <p>In order to demonstrate potential opportunities for exploration enabled by metadata analysis in this context, I chose to create a series of “vignettes” exploring various trends, to illustrate some of the findings and assessment which could be made using the collected data.</p>
+                
+                <table>
+                    <tr>
+                        <th>Fields</th>
+                        <th>Correlation</th>
+                        <th>P-value</th>
+                    </tr>
+                    <tr>
+                        <td>lgbt, queer</td>
+                        <td>0.8166515870289031</td>
+                        <td>0.0</td>
+                    </tr>
+                    <tr>
+                        <td>lgbt, romance</td>
+                        <td>0.0615544229845321</td>
+                        <td>1.12063878632218e-05</td>
+                    </tr>
+                    <tr>
+                        <td>romance, chick lit</td>
+                        <td>0.24207674090157905</td>
+                        <td>1.0216723562656838e-68</td>
+                    </tr>
+                    <tr>
+                        <td>war, cookbooks</td>
+                        <td>-0.038032679821485824</td>
+                        <td>0.006679914902734242</td>
+                    </tr>
+                    <tr>
+                        <td>chick lit, feminism</td>
+                        <td>-0.03330097011877499</td>
+                        <td>0.017561322285696755</td>
+                    </tr>
+                    <tr>
+                        <td>lgbt, graphic novels</td>
+                        <td>0.07252166281769894</td>
+                        <td>2.2547387957731276e-07</td>
+                    </tr>
+                    <tr>
+                        <td>cooking category, cooking</td>
+                        <td>0.8941807186296845</td>
+                        <td>0.0</td>
+                    </tr>
+                </table>
+
+                <h2>Interested in exploring the data yourself? Right click individual lines or click the checkboxes in the subject filter below to highlight specific subject tags.</h2>
+
+                
+                <!-- <img src="images/categories_gantt_draft.png" alt="to be added" width="60%" height="600"> -->
+
                 <div id="good_reads_vis_1">
                     <div class='tableauPlaceholder' id='viz1746022672631' style='position: relative'>
                         <noscript>
