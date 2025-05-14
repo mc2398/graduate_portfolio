@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Maddy Casey Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/portfolio-favicon.svg">
+  	<meta name="description" content=""A digital portfolio reflecting my work as a graduate student in the MsLIS program at the Pratt Institute">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cantora+One&family=Galindo&family=Gorditas:wght@400;700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!-- <script src="scripts.js"></script> -->
+  </head>
+<body>
+    <header class="sub-portfolio-head-background" id="goodreads-head-background">
+        <h1 class="goodreads-h1">Visualizing Collection Insights: A Case Study Using Goodreads Metadata</h1>
+    </header>
+    <div class="subpage-content">
+        <div class="subpage-section" id="nav-block">
+          <nav class="portfolio-nav">
+            <div class="rethink-sans-bodyfont">
+              <ul class="nav-list">
+                <li><a id="nav-home" href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>  
+          </nav>
+        </div>
+        <div class="subpage-section">
+         <div class="portfolio-page-content">
+            <div class="portfolio-page-box">
+             <div class="portfolio-page-embed">
+                <p class="rethink-sans-subhead embed-caption">To see higher quality versions of these visualizations, check out the project write up (linked below)</p>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">1 / 3</div>
+                      <img src="" style="width:100%" alt="">
+                      <!-- <div class="text rethink-sans-subhead">Caption</div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">2 / 3</div>
+                      <img src="" style="width:100%" alt="">
+                      <!-- <div class="text rethink-sans-subhead">Caption Two</div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext rethink-sans-subhead">3 / 3</div>
+                      <img src="" style="width:100%" alt="">
+                      <!-- <div class="text rethink-sans-subhead">Caption Three</div> -->
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+              </div>
+            </div>
+            <div class="portfolio-page-box">
+              <button class="accordion">Project Description</button>
+              <div class="panel rethink-sans-bodyfont">
+                <p></p>
+              </div>
+              <button class="accordion">Methods</button>
+              <div class="panel rethink-sans-bodyfont">
+                <p></p>
+              </div>
+              <button class="accordion">My Role</button>
+              <div class="panel rethink-sans-bodyfont">
+                <p></p>
+              </div>
+              <button class="accordion">Skills Highlighted</button>
+              <div class="panel rethink-sans-bodyfont">
+                <p>Python, Tableau, OpenRefine, GoogleSheets, GitHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class ="subpage-section">
+          <div class="access-project-section">
+            <div class="access-project-head">
+              <h2 class="rethink-sans-subhead">Access this Project:</h2>
+            </div>
+            <div class="access-project-links rethink-sans-bodyfont">
+              <p><a href="goodreads_article.html">Project write up</a></p>
+              <p><a href="https://github.com/mc2398/metadata-analysis-vis">Project GitHub page</a></p>
+            </div>  
+          </div>
+        </div>
+      </div>
+    <!-- <a href="test.html">Test</a> -->
+    <footer>
+      <p class="attribution">© Madeleine Casey 2025.  All graphics created by Madeleine Casey.</p>
+    </footer>
+<script>
+// Accordion Menu Functionality
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+      
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+      } else {
+      panel.style.display = "block";
+      }
+      });
+  }
+//   Carousel JavaScript
+  let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+</script>
+</body>
