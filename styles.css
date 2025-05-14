@@ -511,8 +511,10 @@ ul {
 	background-color: #f1f1f1;
 	padding: 1fr;
 }
-
-
+.goodreads-content-box {
+	margin: 1em;
+	padding: 1em 2em;
+}
 #good_reads_vis_1 {
 	margin: 20px;
 	width:80%;
