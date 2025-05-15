@@ -167,3 +167,8 @@ button {
 	padding: 5px;
 	font-size: 2.25em;
 }
+/* trying to fix weird link spacing */
+.access-project-links p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
