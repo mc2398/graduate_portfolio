@@ -101,10 +101,10 @@ button a:hover{
 	text-decoration:underline;
 }
 /* Button to return to homepage styling */
-#home-page {
+.home-button {
 	background-color: #f0cfce;
 }
-#home-page a {
+.home-button a {
 	color: black;
 }
 
@@ -299,6 +299,7 @@ ul {
     background-color: #ffffff;
     padding: 10px;
 	gap: 10px 10px;
+	justify-content: center;
 }
 .access-project-section > div {
 	width: 50%;
@@ -306,7 +307,17 @@ ul {
 	background-color: #ffffff;
 	padding: 1fr;
   }
-
+.access-project-head {
+	justify-content: center;
+}
+.access-project-head h2 {
+	font-size: 3vw;
+	/* color: red; testing use of this class */
+	/* margin: auto; */
+}
+.access-project-links {
+	justify-content: center;
+}
 /* Resume Page Styling */
 #resume-download {
 	padding: 10px;
@@ -519,3 +530,17 @@ ul {
 	margin: 20px;
 	width:80%;
 }
+
+/* goodreads table styling */
+table {
+	border-collapse: collapse;
+	/* text-align: center; */
+	width: 100%;
+	background: #ffffff;
+  }
+  th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+tr:hover {background: #ccc;}
