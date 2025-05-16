@@ -526,11 +526,14 @@ ul {
 	margin: 1em;
 	padding: 1em 2em;
 }
-#good_reads_vis_1 {
-	margin: 20px;
-	width:80%;
-}
 
+.tableau-vis {
+	margin-bottom: 5%;
+	padding-bottom: 50px;
+	/* margin: 0 1vw; */
+	/* padding-left: 25%; */
+	/* width: 80%; */
+}
 /* goodreads table styling */
 table {
 	border-collapse: collapse;
