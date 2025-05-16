@@ -167,6 +167,19 @@ button {
 	padding: 5px;
 	font-size: 2.25em;
 }
+#goodreads-head-background {
+	background: url('images/goodreads-head-mobile.svg');
+	background-position: top center;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.goodreads-h1 {
+	margin: 20% 15% 10% 15%;
+	padding: 5px;
+	font-size: 1.75em;
+}
 /* trying to fix weird link spacing */
 .access-project-links p {
 	margin-block-start: 0;

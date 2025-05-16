@@ -145,3 +145,16 @@ button {
 	padding: 5px;
 	font-size: 2.5em;
 }
+#goodreads-head-background {
+	background: url('images/goodreads-head-midsized.svg');
+	background-position: top center;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.goodreads-h1 {
+	margin: 9% 15% 9% 15%;
+	padding: 5px;
+	font-size: 1.75em;
+}
