@@ -135,7 +135,7 @@
                     </tr>
                   </table>
 
-                <p>The nominated books are sorted into a series categories, which have changed over the years of the awards’ existence.  For example, in 2024, an audiobook category was added, and in 2022 the children’s category was phased out (figure 1). Following exploratory analysis of the metadata, I deduplicated books which were nominated for multiple categories.</p>
+                <p>The nominated books are sorted into a series of categories, which have changed over the years of the awards’ existence.  For example, in 2024, an audiobook category was added, and in 2022 the middle grade/children’s category was phased out (figure 1). Following exploratory analysis of the metadata, I deduplicated books which were nominated for multiple categories.</p>
                 <div id="categories_gantt">
                     <div class='tableauPlaceholder' id='viz1746600967315' style='position: relative'>
                         <noscript>
@@ -159,7 +159,7 @@
                         </object>
                     </div>
                 </div>
-                <p>In terms of metadata used for the analysis, I chose to collect metadata which has a corresponding field which a public library would likely house for its collections. For a potential mapping of the metadata used in this project to public library collection metadata see table 2.</p>
+                <p>In terms of metadata used for the analysis, I chose to analyze fields which have corresponding fields which a public library would typically catalog. For a potential mapping of the metadata used in this project to public library collection metadata see table 2.</p>
                 
                 <h3>Table 2</h3>
                 <table>
@@ -199,7 +199,7 @@
                 <p>While Goodreads collects data about users’ perspectives on books in the form of ratings and reviews, I chose not to include review and rating data so as to 1) avoid using user data without informed consent and 2) establish a data pipeline which corresponded to metadata collected at public libraries, which typically do not collect review style data from patrons, and often do not retain patron borrowing data to protect patron privacy.</p>
 
                 <h2>Project Pipeline</h2>
-                <p>In order to collect the metadata required for this project, I first wrote web scraping scripts in python which could collect book metadata from Goodreads. My project took significant inspiration from The Goodreads “Classics”: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism by Melanie Walsh and Maria Antoniak, which had previously developed a web scraper for a similar project, published on GitHub.  However, as of the time I conducted my project, the scripts used for the project were no longer functional (largely due to changes in the structure of Goodreads’ book pages).  Given the likelihood that the scripts I developed for this project will likely soon become obsolete, due to the nature of web development and web scraping, I chose to document the purpose of the functions I wrote for the project, in order to facilitate methodological replication.To explore the code for this stage of the project, see the project <a href=”https://github.com/mc2398/metadata-analysis-vis”>GitHub page</a>.</p>
+                <p>In order to collect the metadata required for this project, I first wrote web scraping scripts in python which could collect book metadata from Goodreads. My project took significant inspiration from <i>The Goodreads “Classics”: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism</i> by Melanie Walsh and Maria Antoniak, which had previously developed a web scraper for a similar project, published on GitHub.  However, as of the time I conducted my project, the scripts used for the project were no longer functional (largely due to changes in the structure of Goodreads’ book pages).  Given the likelihood that the scripts I developed for this project will likely soon become obsolete, due to the nature of web development and web scraping, I chose to document the purpose of the functions I wrote for the project, in order to facilitate methodological replication.To explore the code for this stage of the project, see the project <a href=”https://github.com/mc2398/metadata-analysis-vis”>GitHub page</a>.</p>
                 <p>In my initial pass, I collected book titles, genre tags and description fields.  I subsequently manually added year of nomination, and awards category fields, added fields for book ids
                     and to account for the “initial order” in which the books were pulled (to facilitate data sorting) and wrote an additional script to gather author names.</p>
                 <p>Facet analysis of the data in OpenRefine revealed that there were no null values in the data set, and that the metadata was overall complete and accurate.  In a similar project, further tidying and remediation of the metadata would likely be necessary prior to continuing with the analysis.</p>
